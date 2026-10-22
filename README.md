@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TRACEShield AI — Threat Intelligence Platform & Chrome Extension
 
 A professionally engineered cybersecurity threat analysis tool designed for security operations (SOC) analysts. Engineered with a deliberate, restrained, trustworthy interface inspired by mature security tools (CrowdStrike, SentinelOne, Datadog Security) without SaaS marketing clichés or decorative bloat.
@@ -61,3 +62,6 @@ This builds both the web bundle (`dist/`) and the standalone unpacked Chrome Ext
 3. Click **Load unpacked** in the top-left corner.
 4. Select the `dist-extension` directory inside `TraceShield-AI`.
 5. Pin the **TRACEShield AI** icon to your toolbar and click to inspect any active tab!
+=======
+# TraceShield-Ai
+>>>>>>> 4694f76ccbca3715acae119bc63e1d6c0564ed5b
