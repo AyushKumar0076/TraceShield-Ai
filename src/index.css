@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F7F8F6;
+    --text-primary: #202622;
+    --brand-forest: #176B4D;
+    --accent-slate: #526779;
+    --border-neutral: #DDE2DE;
+    --surface-white: #FFFFFF;
+  }
+
+  body {
+    background-color: #F7F8F6;
+    color: #202622;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  /* Accessible focus indicators for keyboard navigation */
+  :focus-visible {
+    outline: 2px solid #176B4D;
+    outline-offset: 1px;
+  }
+
+  /* Tabular numbers for IP addresses, dates, timestamps, indicator counts */
+  .font-tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle, restrained scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DDE2DE;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C8CFC9;
+}
